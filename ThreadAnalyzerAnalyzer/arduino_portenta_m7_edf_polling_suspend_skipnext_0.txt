@@ -1,0 +1,5114 @@
+[00:00:00.000,000] 
+[0m<inf> ur_magni: No I2C connection provided, setting option switch to default
+[0m
+[00:00:00.000,000] 
+[0m<inf> ur_magni: Initialized UART connection.
+[0m
+[00:00:01.137,000] 
+[0m<inf> ur_magni: Requesting firmware version.
+[0m
+[00:00:01.137,000] 
+[1;33m<wrn> ur_magni: Battery is low.
+[0m
+[00:00:01.137,000] 
+[1;31m<err> ur_magni: Battery is critical!
+[0m
+[00:00:02.843,000] 
+[0m<inf> ur_magni: Got Magni FW version: 43
+[0m
+[00:00:02.843,000] 
+[0m<inf> ur_magni: Requesting firmware date.
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Got Magni FW date: 539035689
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Setting wheel type to: std
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Setting drive type to: std
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Setting wheel direction to: std
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Setting board version to: 53
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Setting option switch to: 2
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Clearing system events.
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Initializing E-Stop state to: 1
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Initializing E-Stop Threshold to: 1500
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Setting speed limitations to: 104 and -104
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Initializing PID values.
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: P: 5000
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: I: 0
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: D: -110
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: V: 0
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: C: 1000
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: bufsize: 70
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: maxpwm: 325
+[0m
+[00:00:02.854,000] 
+[0m<inf> ur_magni: Achieved full initialization.
+[0m
+[00:00:02.854,000] 
+[1;33m<wrn> ur_magni: Division-by-Zero avoided: no time elapsed between two consecutive joint thread jobs!
+[0m
+[00:00:05.356,000] 
+[1;33m<wrn> rplidar: Failed resetting with error code: 0x80008005
+[0m
+[00:00:05.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 00 8a 7e                          |~<8....~         
+[0m
+[00:00:05.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:05.854,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 03 5d 3c 7e 3c 0e 00                          |~.]<~<..         
+[0m
+[00:00:05.854,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:05.856,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:06.356,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:06.856,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:08.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 00 90 7e                          |~<2....~         
+[0m
+[00:00:08.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:11.660,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 93 7e 3c                          |~<....~<         
+[0m
+[00:00:11.660,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:13.310,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:00:13.310,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:14.614,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 92 7e                          |~<0....~         
+[0m
+[00:00:14.614,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:15.062,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:00:15.062,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:16.764,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 01 00 00 92 7e                          |~<.....~         
+[0m
+[00:00:16.764,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:18.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d ff a4 00 a1 7e                          |~<-....~         
+[0m
+[00:00:18.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:20.304,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 00 03 00 01                          |~<'.....         
+[0m
+[00:00:20.304,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:20.454,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 00 00                          |~<$.....         
+[0m
+[00:00:20.454,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:20.554,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 00 23 00                          |~<8...#.         
+[0m
+[00:00:20.554,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:20.654,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 01 8c 10 7e 3c                          |~.....~<         
+[0m
+[00:00:20.654,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:22.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:00:22.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:22.804,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 00 03 26 00                          |~<%...&.         
+[0m
+[00:00:22.804,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:23.416,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 7e 3c 2d ff a3 00                          |~<~<-...         
+[0m
+[00:00:23.416,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:24.312,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 7e 3c 30 00 01                          |~<0~<0..         
+[0m
+[00:00:24.312,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:24.852,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 00 01 20                          |~<8....          
+[0m
+[00:00:24.852,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:25.054,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 00 21 08 06 f9                          |~<..!...         
+[0m
+[00:00:25.054,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:26.512,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 93 7e 3c 30                          |~....~<0         
+[0m
+[00:00:26.512,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:26.564,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 01 92 7e 3c 30                          |~....~<0         
+[0m
+[00:00:26.564,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:27.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 00 00 00                          |~<2.....         
+[0m
+[00:00:27.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:27.108,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 7e 3c 30 00 00 00 01                          |~~<0....         
+[0m
+[00:00:27.108,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:27.764,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 00 93 7e                          |~<.....~         
+[0m
+[00:00:27.764,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:27.816,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 93 7e 3c 08                          |~....~<.         
+[0m
+[00:00:27.816,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:29.204,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 26 00 00 01 8a 12 7e                          |<&.....~         
+[0m
+[00:00:29.204,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:29.404,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 3b 7e 3c 0e 00                          |~<';~<..         
+[0m
+[00:00:29.404,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:30.412,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 01 00 01 91 7e 3c                          |~.....~<         
+[0m
+[00:00:30.412,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:31.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 00 01 7e                          |~<8....~         
+[0m
+[00:00:31.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:33.754,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 75 7e 3c 23 00 00 01                          |~u~<#...         
+[0m
+[00:00:33.754,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:35.804,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 00 00 00 04                          |~<'.....         
+[0m
+[00:00:35.804,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:35.904,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 22 75 7e 3c 23 00                          |~."u~<#.         
+[0m
+[00:00:35.904,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:35.954,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 7e 3c 26 00 00                          |~<%~<&..         
+[0m
+[00:00:35.954,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:36.962,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 92 7e 3c 30 00                          |~...~<0.         
+[0m
+[00:00:36.962,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:37.854,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 01 00 00 92 7e                          |~<.....~         
+[0m
+[00:00:37.854,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:38.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 00 90 7e                          |~<2....~         
+[0m
+[00:00:38.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:39.212,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 00 95 7e                          |~0.....~         
+[0m
+[00:00:39.212,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:40.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 7e 3c 30 ff ff                          |~<8~<0..         
+[0m
+[00:00:40.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:40.254,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 3c 0f 00 00 04                          |~<.<....         
+[0m
+[00:00:40.254,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:44.204,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 a2 00                          |~<$.....         
+[0m
+[00:00:44.204,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:45.212,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 95 7e 3c 30 00 00                          |~..~<0..         
+[0m
+[00:00:45.212,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:45.662,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 7e 3c 30 00 00 00                          |~<~<0...         
+[0m
+[00:00:45.662,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:48.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 00 02 ae 7e                          |~<.....~         
+[0m
+[00:00:48.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:50.762,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 93 7e 3c 30 00 00 00                          |~.~<0...         
+[0m
+[00:00:50.762,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:51.212,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:00:51.212,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:52.366,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e ff 00 01 94 7e 3c 2d                          |~....~<-         
+[0m
+[00:00:52.366,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:55.062,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 92 7e 3c 30 00                          |~...~<0.         
+[0m
+[00:00:55.062,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:55.310,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 92 7e 3c 30 00 01                          |~<.~<0..         
+[0m
+[00:00:55.310,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:55.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2c 00 00 20 77 7e                          |~<,.. w~         
+[0m
+[00:00:55.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:56.962,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 7e 3c 30 ff                          |~<0.~<0.         
+[0m
+[00:00:56.962,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:57.654,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 01 f1 ae 7e 3c 24                          |~....~<$         
+[0m
+[00:00:57.654,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:58.912,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 93 7e 3c 30                          |~<0..~<0         
+[0m
+[00:00:58.912,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:59.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 01 00 00 92 7e                          |~<0....~         
+[0m
+[00:00:59.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:59.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 00 12 00 13 7e                          |~<.....~         
+[0m
+[00:00:59.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 24859909
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 14100894
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 155172573
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 472 usage 552 / 1024 (53 %); CPU: 1 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 419630459
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 80459
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 712 usage 312 / 1024 (30 %); CPU: 24 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5439201132
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4872314
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 21470607
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 384 usage 640 / 1024 (62 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 105961
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 1 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 257719454
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 728 usage 296 / 1024 (28 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 135649319
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 712 usage 312 / 1024 (30 %); CPU: 9 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2015202252
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 1 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 275581612
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 59 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 13007216714
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1736 usage 312 / 2048 (15 %)
+[0m
+[00:01:00.014,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 92 7e 3c                          |~<0...~<         
+[0m
+[00:01:00.014,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:00.066,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 92 7e 3c 38                          |~<...~<8         
+[0m
+[00:01:00.066,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:00.810,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 7e 3c 30                          |~<0..~<0         
+[0m
+[00:01:00.810,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:00.912,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 00 93 7e 3c                          |~.....~<         
+[0m
+[00:01:00.912,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:02.012,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:01:02.012,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:02.116,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:01:02.116,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:03.254,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e ae 7e 3c 0f 00                          |~<..~<..         
+[0m
+[00:01:03.254,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:05.152,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d 00 05 00 0d 00                          |~<-.....         
+[0m
+[00:01:05.152,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:05.204,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 00 03 3c 26                          |~<%...<&         
+[0m
+[00:01:05.204,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:06.160,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:01:06.160,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:07.054,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 01 8a 7e 3c 30 ff                          |~<..~<0.         
+[0m
+[00:01:07.054,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:08.462,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e ff ff 00 01 94 7e 3c                          |~.....~<         
+[0m
+[00:01:08.462,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:08.704,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 00                          |~<0.....         
+[0m
+[00:01:08.704,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:08.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 08 09 22 09 7a 7e                          |~<..".z~         
+[0m
+[00:01:08.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:09.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 01 9f ff 7e                          |~<$....~         
+[0m
+[00:01:09.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:09.514,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 01 92 7e                          |~<.....~         
+[0m
+[00:01:09.514,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:11.912,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff 7e 3c 30 00                          |~<0.~<0.         
+[0m
+[00:01:11.912,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:11.962,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 93 7e 3c 30                          |~....~<0         
+[0m
+[00:01:11.962,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:12.508,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:01:12.508,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:13.364,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 7e 3c 08                          |~<0..~<.         
+[0m
+[00:01:13.364,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:14.258,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 01 7e                          |~<0....~         
+[0m
+[00:01:14.258,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:14.310,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 7e 3c 30 ff                          |~<0.~<0.         
+[0m
+[00:01:14.310,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:14.454,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 7e 3c 30 00 00                          |~<.~<0..         
+[0m
+[00:01:14.454,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:15.912,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 7e 3c 30 00 01                          |~<0~<0..         
+[0m
+[00:01:15.912,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:16.108,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 7e 3c                          |~<0...~<         
+[0m
+[00:01:16.108,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:16.254,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       ff ff 95 7e 3c 30 00 00                          |...~<0..         
+[0m
+[00:01:16.254,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:16.454,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 7e 3c                          |~<....~<         
+[0m
+[00:01:16.454,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:16.604,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 03 5f 3a 7e 3c                          |~..._:~<         
+[0m
+[00:01:16.604,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:18.354,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 00 03                          |~<$.....         
+[0m
+[00:01:18.354,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:19.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff 00 01 94 7e                          |~<0....~         
+[0m
+[00:01:19.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:19.808,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:01:19.808,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:19.904,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 3c 30 00                          |~<0..<0.         
+[0m
+[00:01:19.904,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:20.054,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e ae 7e 3c 0f 00                          |~<..~<..         
+[0m
+[00:01:20.054,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:20.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 22 00 26 74 7e                          |~<.".&t~         
+[0m
+[00:01:20.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:20.154,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 2c 00 00 00 20 77 7e                          |~,... w~         
+[0m
+[00:01:20.154,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:20.714,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:01:20.714,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:21.758,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 92 7e                          |~<0....~         
+[0m
+[00:01:21.758,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:23.804,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 9f 03                          |~<$.....         
+[0m
+[00:01:23.804,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:23.854,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 af 7e 3c 0f                          |~<...~<.         
+[0m
+[00:01:23.854,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:25.904,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 7e 3c 24 00 00                          |~<#~<$..         
+[0m
+[00:01:25.904,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:27.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 92 7e                          |~<0....~         
+[0m
+[00:01:27.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:27.554,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       00 01 92 7e 3c 30 00 01                          |...~<0..         
+[0m
+[00:01:27.554,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:27.604,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 00 93 7e                          |~<.....~         
+[0m
+[00:01:27.604,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:27.654,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 39 f7 7e 3c 30 00 00                          |~9.~<0..         
+[0m
+[00:01:27.654,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:27.704,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 7e 3c 24 00 00 01                          |~<~<$...         
+[0m
+[00:01:27.704,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:28.762,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 93 7e 3c 30 ff ff                          |~..~<0..         
+[0m
+[00:01:28.762,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:29.060,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff 00 00 95 7e                          |~<0....~         
+[0m
+[00:01:29.060,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:29.308,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 7e 3c                          |~<0...~<         
+[0m
+[00:01:29.308,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:29.554,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 00 b0 7e 3c                          |~<....~<         
+[0m
+[00:01:29.554,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:29.704,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 26 7e 3c 27 00 00                          |~<&~<'..         
+[0m
+[00:01:29.704,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:30.562,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e ff ff 00 00 95 7e 3c                          |~.....~<         
+[0m
+[00:01:30.562,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:31.304,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 7e 3c 30 00 01                          |~<#~<0..         
+[0m
+[00:01:31.304,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:32.910,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:01:32.910,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:33.158,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 ff 7e 3c                          |~<0...~<         
+[0m
+[00:01:33.158,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:34.116,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e ff 00 00 95 7e 3c 0e                          |~....~<.         
+[0m
+[00:01:34.116,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:35.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 7e 3c                          |~<0...~<         
+[0m
+[00:01:35.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:35.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 3c 30 00                          |~<0..<0.         
+[0m
+[00:01:35.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:35.154,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 95 7e 3c                          |~<0...~<         
+[0m
+[00:01:35.154,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:35.204,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c ff 7e 3c 30 ff ff                          |~<.~<0..         
+[0m
+[00:01:35.204,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:36.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c ff ff 00 00 95 7e                          |~<.....~         
+[0m
+[00:01:36.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:36.712,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 7e 3c                          |~<0...~<         
+[0m
+[00:01:36.712,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:37.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 92 7e                          |~<0....~         
+[0m
+[00:01:37.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:37.302,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 00 03 ff 7e                          |~<.....~         
+[0m
+[00:01:37.302,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:39.102,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 08 09 45 09 06 ff                          |~<..E...         
+[0m
+[00:01:39.102,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:39.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 00 90 7e                          |~<2....~         
+[0m
+[00:01:39.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:40.852,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 03 5e 3b 7e                          |~<'..^;~         
+[0m
+[00:01:40.852,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:41.154,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 20 77 7e 3c 23                          |~.. w~<#         
+[0m
+[00:01:41.154,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:43.810,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:01:43.810,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:44.262,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 93 7e 3c 30                          |~....~<0         
+[0m
+[00:01:44.262,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:44.654,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 00 00                          |~<......         
+[0m
+[00:01:44.654,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:44.802,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 03 5b 40 7e                          |~<%..[@~         
+[0m
+[00:01:44.802,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:45.812,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 01 92 7e 3c 30 ff                          |~...~<0.         
+[0m
+[00:01:45.812,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:46.160,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:01:46.160,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:46.212,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 93 7e 3c 30                          |~....~<0         
+[0m
+[00:01:46.212,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:46.458,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 7e 3c 30 ff ff                          |~<0~<0..         
+[0m
+[00:01:46.458,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:46.804,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 5d 3e 7e 3c 26 00 00                          |~]>~<&..         
+[0m
+[00:01:46.804,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:49.364,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 01 7e                          |~<0....~         
+[0m
+[00:01:49.364,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:49.812,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 ff ff 95 7e 3c 30                          |~....~<0         
+[0m
+[00:01:49.812,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:50.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 01 00 00 92 7e                          |~0.....~         
+[0m
+[00:01:50.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:50.804,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d 7e 3c 2c 00 00                          |~<-~<,..         
+[0m
+[00:01:50.804,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:52.408,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 01 00 00 92 7e                          |~0.....~         
+[0m
+[00:01:52.408,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:52.504,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       93 7e 3c 30 00 00 ff ff                          |.~<0....         
+[0m
+[00:01:52.504,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:52.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 02 7e                          |~<.....~         
+[0m
+[00:01:52.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:53.662,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 93 7e 3c 30 00 00 00                          |~.~<0...         
+[0m
+[00:01:53.662,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:54.012,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 01 ff ff 94 7e                          |~<.....~         
+[0m
+[00:01:54.012,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:55.164,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:01:55.164,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:55.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 01 7e                          |~<0....~         
+[0m
+[00:01:55.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:55.612,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 93 7e 3c 30                          |~....~<0         
+[0m
+[00:01:55.612,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:56.554,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 00 00 03                          |~<......         
+[0m
+[00:01:56.554,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:56.704,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 01 88 14 7e 3c 27 00                          |~...~<'.         
+[0m
+[00:01:56.704,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:58.404,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 00 1d 00 1c ff                          |~<......         
+[0m
+[00:01:58.404,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:58.504,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 00 3c 0e 00                          |~<'..<..         
+[0m
+[00:01:58.504,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:58.554,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       00 01 8a 7e 3c 07 00 08                          |...~<...         
+[0m
+[00:01:58.554,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:58.704,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c b2 7e 3c 32 00 00                          |~<.~<2..         
+[0m
+[00:01:58.704,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:59.216,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 93 7e 3c 08 09 65 0a                          |~.~<..e.         
+[0m
+[00:01:59.216,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:59.560,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 7e 3c 30                          |~<0..~<0         
+[0m
+[00:01:59.560,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:59.662,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 00 95 7e                          |~0.....~         
+[0m
+[00:01:59.662,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 53719173
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 28569339
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 338288710
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 472 usage 552 / 1024 (53 %); CPU: 2 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 906523244
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 80459
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 712 usage 312 / 1024 (30 %); CPU: 25 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 11179777767
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 10188235
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 43350824
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 384 usage 640 / 1024 (62 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 287804
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 1 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 521851911
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 728 usage 296 / 1024 (28 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 308613303
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 712 usage 312 / 1024 (30 %); CPU: 9 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4092142488
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 1 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 744722497
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 58 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 25224125397
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1736 usage 312 / 2048 (15 %)
+[0m
+[00:02:01.960,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:02:01.960,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:02.404,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       00 03 5c 3f 7e 3c 30 ff                          |..\?~<0.         
+[0m
+[00:02:02.404,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:02.454,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 7e 3c 0f 00 00 04                          |~<~<....         
+[0m
+[00:02:02.454,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:03.114,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 7e 3c 0f 00                          |~<0.~<..         
+[0m
+[00:02:03.114,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:03.912,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 00 93 7e 3c                          |~.....~<         
+[0m
+[00:02:03.912,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:04.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 00 04 b0 7e                          |~<.....~         
+[0m
+[00:02:04.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:04.404,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       03 5b 3e 7e 3c 0e 00 00                          |.[>~<...         
+[0m
+[00:02:04.404,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:04.454,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 00 3c 38                          |~<2...<8         
+[0m
+[00:02:04.454,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:05.066,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 93 7e 3c 25 00                          |~...~<%.         
+[0m
+[00:02:05.066,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:06.110,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 01 00 00 92 7e                          |~<0....~         
+[0m
+[00:02:06.110,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:06.964,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 7e 3c 07 00                          |~<0.~<..         
+[0m
+[00:02:06.964,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:08.154,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 26 00 00 01 00 00                          |~<&.....         
+[0m
+[00:02:08.154,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:08.354,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 27 00 00 03 5d 3c 7e                          |~'...]<~         
+[0m
+[00:02:08.354,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:09.310,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 01 7e                          |~<0....~         
+[0m
+[00:02:09.310,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:09.412,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 00 00 00 01 92 7e 3c                          |~.....~<         
+[0m
+[00:02:09.412,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:11.362,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 92 7e 3c 30 00                          |~<0.~<0.         
+[0m
+[00:02:11.362,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:12.102,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 00 00                          |~<0.....         
+[0m
+[00:02:12.102,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:12.154,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 93 7e 3c 30 00 00 00                          |~.~<0...         
+[0m
+[00:02:12.154,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:12.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2c 00 00 00 20 01                          |~<,... .         
+[0m
+[00:02:12.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:14.058,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 7e 3c 30 00 00                          |~<.~<0..         
+[0m
+[00:02:14.058,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:14.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 04 02 af 7e                          |~<.....~         
+[0m
+[00:02:14.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:18.254,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d 93 7e 3c 30 ff                          |~<-.~<0.         
+[0m
+[00:02:18.254,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:19.066,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:02:19.066,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:19.412,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e ff 00 00 95 7e 3c 30                          |~....~<0         
+[0m
+[00:02:19.412,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:20.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 3c 30 00 00                          |~<0.<0..         
+[0m
+[00:02:20.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:20.152,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d ff bf ff bf 00                          |~<-.....         
+[0m
+[00:02:20.152,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:56.154,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 00 00                          |~<0.....         
+[0m
+[00:02:56.154,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:34.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 01 a6 f8 7e                          |~<$....~         
+[0m
+[00:00:34.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:35.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:00:35.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:37.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:00:37.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:38.006,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 00 7e                          |~<0....~         
+[0m
+[00:00:38.006,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:00.000,000] 
+[0m<inf> ur_magni: No I2C connection provided, setting option switch to default
+[0m
+[00:00:00.000,000] 
+[0m<inf> ur_magni: Initialized UART connection.
+[0m
+[00:00:01.046,000] 
+[0m<inf> ur_magni: Requesting firmware version.
+[0m
+[00:00:01.048,000] 
+[1;33m<wrn> ur_magni: Battery is low.
+[0m
+[00:00:01.048,000] 
+[1;31m<err> ur_magni: Battery is critical!
+[0m
+[00:00:02.755,000] 
+[0m<inf> ur_magni: Got Magni FW version: 43
+[0m
+[00:00:02.755,000] 
+[0m<inf> ur_magni: Requesting firmware date.
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Got Magni FW date: 539035689
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Setting wheel type to: std
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Setting drive type to: std
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Setting wheel direction to: std
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Setting board version to: 53
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Setting option switch to: 2
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Clearing system events.
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Initializing E-Stop state to: 1
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Initializing E-Stop Threshold to: 1500
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Setting speed limitations to: 104 and -104
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Initializing PID values.
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: P: 5000
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: I: 0
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: D: -110
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: V: 0
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: C: 1000
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: bufsize: 70
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: maxpwm: 325
+[0m
+[00:00:02.766,000] 
+[0m<inf> ur_magni: Achieved full initialization.
+[0m
+[00:00:02.766,000] 
+[1;33m<wrn> ur_magni: Division-by-Zero avoided: no time elapsed between two consecutive joint thread jobs!
+[0m
+[00:00:05.500,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:06.000,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:06.500,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:09.258,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 01 92 7e                          |~<.....~         
+[0m
+[00:00:09.258,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:09.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 ad 7e                          |~<.....~         
+[0m
+[00:00:09.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:11.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 03 ae 7e                          |~<.....~         
+[0m
+[00:00:11.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:22.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 01 f3 ac 7e                          |~<#....~         
+[0m
+[00:00:22.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:25.860,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 00 93 7e                          |~<.....~         
+[0m
+[00:00:25.860,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:28.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c ff ff 00 01 94 7e                          |~<.....~         
+[0m
+[00:00:28.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:31.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 00 5a 41 7e                          |~<%..ZA~         
+[0m
+[00:00:31.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:39.024,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 0e 00 00 04 02 af 7e                          |~......~         
+[0m
+[00:00:39.024,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:39.026,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 0f 00 00 04 02 ae 7e                          |<......~         
+[0m
+[00:00:39.026,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:00:46.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 00 8a 7e                          |~<8....~         
+[0m
+[00:00:46.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 22036718
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 552 usage 472 / 1024 (46 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 15602031
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 140610488
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 1 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 410194265
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 22 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4817358897
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4383580
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 19939734
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 108955
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 1 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 245843391
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 51065123
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1853403849
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 87304131
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 64 %
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 14083226280
+[0m
+[00:01:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1728 usage 320 / 2048 (15 %)
+[0m
+[00:01:04.114,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:01:04.114,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:12.952,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 01 f0 af 7e                          |~<#....~         
+[0m
+[00:01:12.952,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:14.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:01:14.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:23.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 01 92 7e                          |~<.....~         
+[0m
+[00:01:23.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:23.758,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:01:23.758,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:24.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2c 00 00 22 75 7e                          |~<,.."u~         
+[0m
+[00:01:24.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:24.814,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:01:24.814,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:33.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d ff ff 93 6a 7e                          |~<-...j~         
+[0m
+[00:01:33.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:35.652,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 26 00 00 01 88 14 7e                          |~&.....~         
+[0m
+[00:01:35.652,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:36.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 91 7e                          |~<0....~         
+[0m
+[00:01:36.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:36.910,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 01 00 01 91 7e                          |~<0....~         
+[0m
+[00:01:36.910,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:38.860,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:01:38.860,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:39.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:01:39.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:41.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 01 f0 af 7e                          |~<#....~         
+[0m
+[00:01:41.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:44.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:01:44.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:45.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 04 7e                          |~<$....~         
+[0m
+[00:01:45.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:46.952,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 19 ff fd 81 7e                          |~<.....~         
+[0m
+[00:01:46.952,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:52.802,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:01:52.802,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:01:58.902,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 01 8a 7e                          |~<8....~         
+[0m
+[00:01:58.902,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 46222913
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 552 usage 472 / 1024 (46 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 31069543
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 307050633
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 896802756
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 22 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 9887290383
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 10003243
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 41264678
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 292882
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 1 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 502390829
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 99484180
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3717341627
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 233608480
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 63 %
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 27640403238
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1720 usage 328 / 2048 (16 %)
+[0m
+[00:02:00.012,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 00 95 7e                          |~0.....~         
+[0m
+[00:02:00.012,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:01.004,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 26 00 00 01 88 14 7e                          |<&.....~         
+[0m
+[00:02:01.004,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:04.508,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff 00 01 94 7e                          |~<0....~         
+[0m
+[00:02:04.508,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:04.652,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 00 90 7e                          |~<2....~         
+[0m
+[00:02:04.652,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:08.110,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:02:08.110,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:12.754,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 23 00 00 01 f1 ae 7e                          |<#.....~         
+[0m
+[00:02:12.754,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:16.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 03 7e                          |~<.....~         
+[0m
+[00:02:16.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:18.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:02:18.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:19.514,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 00 95 7e                          |~0.....~         
+[0m
+[00:02:19.514,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:20.506,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 94 7e                          |~<0....~         
+[0m
+[00:02:20.506,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:24.754,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 32 00 00 00 01 90 7e                          |<2.....~         
+[0m
+[00:02:24.754,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:25.514,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 01 00 00 92 7e                          |~0.....~         
+[0m
+[00:02:25.514,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:26.702,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 00 24 00 75 7e                          |~<..$.u~         
+[0m
+[00:02:26.702,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:30.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 03 5e 3d 7e                          |~<%..^=~         
+[0m
+[00:02:30.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:31.514,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 ff ff 95 7e                          |~<0....~         
+[0m
+[00:02:31.514,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:38.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:02:38.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:39.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 00 04 b0 7e                          |~<.....~         
+[0m
+[00:02:39.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:02:52.758,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff 00 00 95 7e                          |~<0....~         
+[0m
+[00:02:52.758,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 70771796
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 552 usage 472 / 1024 (46 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 45770672
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 475783454
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1375764233
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 14971970813
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 15585017
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 62229203
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 477685
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 1 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 760405173
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 149490877
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5640455373
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 374753539
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 63 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 41116707618
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1720 usage 328 / 2048 (16 %)
+[0m
+[00:03:02.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:03:02.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:06.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 01 7e                          |~<0....~         
+[0m
+[00:03:06.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:09.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 01 90 7e                          |~<.....~         
+[0m
+[00:03:09.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:13.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d ff 9b a7 56 7e                          |~<-...V~         
+[0m
+[00:03:13.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:14.710,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 01 00 00 92 7e                          |~<0....~         
+[0m
+[00:03:14.710,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:20.760,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:03:20.760,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:22.906,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 00 7e                          |~<0....~         
+[0m
+[00:03:22.906,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:23.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 03 7e                          |~<.....~         
+[0m
+[00:03:23.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:25.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 00 1e 00 7d 7e                          |~<....}~         
+[0m
+[00:03:25.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:26.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 91 7e                          |~<0....~         
+[0m
+[00:03:26.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:27.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d ff 9e 64 95 7e                          |~<-..d.~         
+[0m
+[00:03:27.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:30.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 00 93 7e                          |~<.....~         
+[0m
+[00:03:30.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:32.610,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 01 7e                          |~<0....~         
+[0m
+[00:03:32.610,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:33.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 ff ff 7e                          |~<0....~         
+[0m
+[00:03:33.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:39.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 01 90 7e                          |~<2....~         
+[0m
+[00:03:39.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:50.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 00 03 5f 7e                          |~<%..._~         
+[0m
+[00:03:50.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:50.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 01 90 7e                          |~<.....~         
+[0m
+[00:03:50.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:03:52.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:03:52.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95182213
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 60483665
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 647488586
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1842654106
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 20032654037
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 20804120
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 83213014
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 659088
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 1 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1001759916
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 205493507
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 7560250996
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 518338547
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 63 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 54626767481
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1720 usage 328 / 2048 (16 %)
+[0m
+[00:04:01.604,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 25 00 00 03 5b 40 7e                          |~%...[@~         
+[0m
+[00:04:01.604,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:05.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:04:05.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:07.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:04:07.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:07.410,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 92 7e                          |~<0....~         
+[0m
+[00:04:07.410,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:10.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 ff 95 7e                          |~<0....~         
+[0m
+[00:04:10.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:14.156,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 01 7e                          |~<0....~         
+[0m
+[00:04:14.156,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:14.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 98 7e                          |~<$....~         
+[0m
+[00:04:14.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:16.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d ff d1 00 3d 7e                          |~<-...=~         
+[0m
+[00:04:16.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:16.702,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 ac 7e                          |~<.....~         
+[0m
+[00:04:16.702,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:18.110,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:04:18.110,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:27.302,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 04 02 ae 7e                          |~<.....~         
+[0m
+[00:04:27.302,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:32.312,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 00 7e                          |~<0....~         
+[0m
+[00:04:32.312,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:34.464,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:04:34.464,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:34.860,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:04:34.860,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:38.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 04 00 b0 7e                          |~<.....~         
+[0m
+[00:04:38.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:42.158,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 01 94 7e                          |~0.....~         
+[0m
+[00:04:42.158,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:42.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 00 f2 ad 7e                          |~<#....~         
+[0m
+[00:04:42.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:44.308,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 01 91 7e                          |~<0....~         
+[0m
+[00:04:44.308,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:46.702,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 04 01 af 7e                          |~<.....~         
+[0m
+[00:04:46.702,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:46.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 09 4c 09 0f 4e 7e                          |~<.L..N~         
+[0m
+[00:04:46.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:04:49.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 2d 00 36 ff ba a7 7e                          |<-.6...~         
+[0m
+[00:04:49.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 119329426
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 74862037
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 811268409
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2306586685
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 25101603079
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 26011022
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 103993763
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 839062
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1244697305
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 259435607
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 9456126307
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 674187268
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 68163534022
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1720 usage 328 / 2048 (16 %)
+[0m
+[00:05:02.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 07 7e                          |~<$....~         
+[0m
+[00:05:02.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:02.764,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:05:02.764,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:06.352,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 00 8a 7e                          |~<8....~         
+[0m
+[00:05:06.352,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:10.852,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 00 03 5f 7e                          |~<'..._~         
+[0m
+[00:05:10.852,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:14.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:05:14.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:15.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 01 98 06 7e                          |~<$....~         
+[0m
+[00:05:15.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:20.760,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 01 7e                          |~<0....~         
+[0m
+[00:05:20.760,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:21.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 01 00 01 91 7e                          |~<0....~         
+[0m
+[00:05:21.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:26.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d 00 4b 59 f2 7e                          |~<-.KY.~         
+[0m
+[00:05:26.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:28.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:05:28.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:28.102,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:05:28.102,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:30.204,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 ff ff 00 01 94 7e                          |<0.....~         
+[0m
+[00:05:30.204,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:32.504,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 26 00 00 01 85 17 7e                          |~&.....~         
+[0m
+[00:05:32.504,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:33.262,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 92 7e                          |~<0....~         
+[0m
+[00:05:33.262,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:35.514,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:05:35.514,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:42.014,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:05:42.014,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:43.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 00 03 3f 7e                          |~<%...?~         
+[0m
+[00:05:43.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:50.004,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 23 00 00 01 ef b0 7e                          |<#.....~         
+[0m
+[00:05:50.004,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:05:54.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 00 01 f0 7e                          |~<#....~         
+[0m
+[00:05:54.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 143772403
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 89134822
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 978054939
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2771411729
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 30160593457
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 31522973
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 124861791
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1021422
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1486654577
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 315128182
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 11326084548
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 820157694
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 81747799940
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1720 usage 328 / 2048 (16 %)
+[0m
+[00:06:02.160,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 01 00 00 92 7e                          |~0.....~         
+[0m
+[00:06:02.160,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:02.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:06:02.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:02.902,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff ff ff 7e                          |~<0....~         
+[0m
+[00:06:02.902,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:03.254,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 0e 00 00 04 04 ad 7e                          |<......~         
+[0m
+[00:06:03.254,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:05.152,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:06:05.152,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:05.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:06:05.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:07.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2d d6 00 30 91 7e                          |~<-..0.~         
+[0m
+[00:06:07.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:09.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:06:09.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:13.610,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:06:13.610,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:14.302,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2c 00 00 00 77 7e                          |~<,...w~         
+[0m
+[00:06:14.302,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:22.610,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 00 93 7e                          |~<.....~         
+[0m
+[00:06:22.610,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:25.110,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 00 00 00 00 93 7e                          |<0.....~         
+[0m
+[00:06:25.110,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:28.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 01 94 7e                          |~<0....~         
+[0m
+[00:06:28.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:33.854,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 32 00 00 00 01 90 7e                          |~2.....~         
+[0m
+[00:06:33.854,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:36.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 00 04 00 7e                          |~<.....~         
+[0m
+[00:06:36.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:39.760,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:06:39.760,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:46.804,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 07 00 20 00 1f 7d 7e                          |<.. ..}~         
+[0m
+[00:06:46.804,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:51.254,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 0e 00 00 04 06 ab 7e                          |<......~         
+[0m
+[00:06:51.254,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:53.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 22 75 7e                          |~<..."u~         
+[0m
+[00:06:53.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:06:59.904,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 00 01 00 01 91 7e                          |<0.....~         
+[0m
+[00:06:59.904,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 168636322
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 103739321
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1144558310
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3241231632
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 35276206246
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 36876255
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 145749995
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1198843
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1739763217
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 367219526
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 13218822912
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 968012100
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95236975928
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:07:00.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 08 05 b4 07 de 3c                          |~<.....<         
+[0m
+[00:07:00.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:06.206,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 00 7e                          |~<0....~         
+[0m
+[00:07:06.206,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:08.458,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:07:08.458,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:14.810,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:07:14.810,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:17.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 01 f0 af 7e                          |~<#....~         
+[0m
+[00:07:17.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:18.810,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 01 00 01 91 7e                          |~0.....~         
+[0m
+[00:07:18.810,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:26.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 01 94 7e                          |~0.....~         
+[0m
+[00:07:26.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:30.754,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 0e 00 00 04 03 ae 7e                          |<......~         
+[0m
+[00:07:30.754,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:33.004,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 23 00 00 01 f2 ad 7e                          |~#.....~         
+[0m
+[00:07:33.004,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:37.058,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 ff ff 00 00 95 7e                          |<0.....~         
+[0m
+[00:07:37.058,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:39.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 00 5b 40 7e                          |~<%..[@~         
+[0m
+[00:07:39.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:39.702,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 00 00 1d 92 7e                          |~<.....~         
+[0m
+[00:07:39.702,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:48.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 08 08 ea db e6 7e                          |~<.....~         
+[0m
+[00:07:48.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:50.504,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 00 00 00 00 93 7e                          |<0.....~         
+[0m
+[00:07:50.504,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:59.206,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 00 7e                          |~<0....~         
+[0m
+[00:07:59.206,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:07:59.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 0d 00 0e a1 7e                          |~<.....~         
+[0m
+[00:07:59.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 194058614
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 118355706
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1319209843
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3725803814
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 40348592000
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 41928205
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 167057912
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1376902
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2000251343
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 418610811
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 15092591963
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1098829341
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 108779248284
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:08:02.860,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:08:02.860,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:05.902,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:08:05.902,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:10.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 03 61 38 7e                          |~<'..a8~         
+[0m
+[00:08:10.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:12.508,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:08:12.508,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:15.102,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2c 00 00 00 77 7e                          |~<,...w~         
+[0m
+[00:08:15.102,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:17.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:08:17.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:24.004,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 0e 00 00 04 02 af 7e                          |<......~         
+[0m
+[00:08:24.004,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:25.906,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:08:25.906,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:28.258,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:08:28.258,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:28.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 01 90 7e                          |~<2....~         
+[0m
+[00:08:28.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:29.710,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:08:29.710,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:30.652,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 03 5e 3b 7e                          |~<'..^;~         
+[0m
+[00:08:30.652,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:31.514,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:08:31.514,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:35.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 00 03 5f 7e                          |~<'..._~         
+[0m
+[00:08:35.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:37.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 00 00 00 00 93 7e                          |<0.....~         
+[0m
+[00:08:37.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:37.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 ff ff 00 01 94 7e                          |<0.....~         
+[0m
+[00:08:37.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:38.014,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 01 00 01 91 7e                          |~0.....~         
+[0m
+[00:08:38.014,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:44.562,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:08:44.562,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:45.410,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:08:45.410,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:50.158,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 01 94 7e                          |~0.....~         
+[0m
+[00:08:50.158,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:53.760,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:08:53.760,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:54.556,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:08:54.556,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:56.808,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:08:56.808,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:08:57.814,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:08:57.814,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 219594888
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 133124691
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1490699885
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4208374705
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 45452041092
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 47048250
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 188279375
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1558079
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2263983463
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 469491207
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 16973506852
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1278231051
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 122241632008
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:09:07.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:09:07.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:16.702,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 38 00 00 00 01 8a 7e                          |~8.....~         
+[0m
+[00:09:16.702,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:21.504,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 0e 00 00 04 03 ae 7e                          |<......~         
+[0m
+[00:09:21.504,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:22.560,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:09:22.560,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:25.902,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 06 ab 7e                          |~<.....~         
+[0m
+[00:09:25.902,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:26.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2c 00 00 20 77 7e                          |~<,.. w~         
+[0m
+[00:09:26.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:28.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 00 03 5d 7e                          |~<'...]~         
+[0m
+[00:09:28.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:38.758,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c ff ff 00 00 95 7e                          |~<.....~         
+[0m
+[00:09:38.758,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:39.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 23 00 00 01 f1 ae 7e                          |<#.....~         
+[0m
+[00:09:39.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:40.610,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 01 00 01 91 7e                          |~0.....~         
+[0m
+[00:09:40.610,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:41.152,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 03 7e                          |~<.....~         
+[0m
+[00:09:41.152,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:47.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 01 8a 7e                          |~<8....~         
+[0m
+[00:09:47.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:49.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 01 94 7e                          |~0.....~         
+[0m
+[00:09:49.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:09:50.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 32 00 00 01 90 7e                          |~<2....~         
+[0m
+[00:09:50.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 245253045
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 147667490
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1666693596
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4690144422
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 50562700295
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 52262947
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 209335483
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1743954
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2527083356
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 518182160
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 18862123317
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1400840600
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 135737575184
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:10:02.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:10:02.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:12.110,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:10:12.110,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:14.410,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:10:14.410,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:17.352,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 04 05 ac 7e                          |~<.....~         
+[0m
+[00:10:17.352,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:27.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:10:27.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:28.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 00 00 00 bc 7e                          |~<.....~         
+[0m
+[00:10:28.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:33.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 00 00 00 01 92 7e                          |<0.....~         
+[0m
+[00:10:33.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:33.254,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 08 07 59 0e 9b b2 7e                          |~..Y...~         
+[0m
+[00:10:33.254,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:35.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 24 00 00 01 89 15 7e                          |~$.....~         
+[0m
+[00:10:35.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:37.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:10:37.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:39.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:10:39.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:41.110,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:10:41.110,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:46.258,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:10:46.258,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:46.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 00 f0 af 7e                          |~<#....~         
+[0m
+[00:10:46.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:52.808,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 01 00 00 92 7e                          |~<.....~         
+[0m
+[00:10:52.808,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:53.004,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 07 00 1d 00 18 87 7e                          |<......~         
+[0m
+[00:10:53.004,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:54.952,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:10:54.952,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:10:58.512,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 01 94 7e                          |~0.....~         
+[0m
+[00:10:58.512,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 270681183
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 161831028
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1829802312
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5164879853
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 55661524057
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 57273507
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 230175302
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1924933
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2789208195
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 567487987
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 20770098823
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1544028731
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 149219680033
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:11:00.710,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:11:00.710,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:03.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 ad 7e                          |~<.....~         
+[0m
+[00:11:03.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:07.760,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:11:07.760,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:12.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 ff ff 95 7e                          |~<.....~         
+[0m
+[00:11:12.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:14.410,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:11:14.410,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:16.908,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:11:16.908,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:18.460,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:11:18.460,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:19.602,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 01 90 7e                          |~<.....~         
+[0m
+[00:11:19.602,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:25.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:11:25.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:27.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:11:27.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:35.202,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 01 f0 af 7e                          |~<.....~         
+[0m
+[00:11:35.202,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:37.302,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 03 5d 3e 7e                          |~<...]>~         
+[0m
+[00:11:37.302,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:42.664,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:11:42.664,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:46.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:11:46.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:48.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 02 af 7e                          |~<.....~         
+[0m
+[00:11:48.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:53.912,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:11:53.912,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:11:54.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:11:54.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 296124229
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 176470066
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2006537886
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5646727718
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 60756338652
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 62293668
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 251598982
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2102215
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3051837413
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 616527090
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 22650879432
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1682368896
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 162716676368
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:12:00.014,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 01 92 7e 3c 26                          |~<...~<&         
+[0m
+[00:12:00.014,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:02.214,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:12:02.214,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:03.504,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 01 92 7e                          |~0.....~         
+[0m
+[00:12:03.504,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:04.312,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 01 7e                          |~<0....~         
+[0m
+[00:12:04.312,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:11.710,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:12:11.710,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:13.760,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:12:13.760,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:14.302,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 03 5f 3a 7e                          |~<'.._:~         
+[0m
+[00:12:14.302,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:15.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:12:15.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:18.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 91 7e                          |~<0....~         
+[0m
+[00:12:18.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:25.402,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 00 04 ad 7e                          |~<.....~         
+[0m
+[00:12:25.402,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:31.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 25 00 00 5d 3e 7e                          |~<%..]>~         
+[0m
+[00:12:31.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:33.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 91 7e                          |~<0....~         
+[0m
+[00:12:33.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:39.260,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:12:39.260,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:46.952,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 20 77 7e                          |~<... w~         
+[0m
+[00:12:46.952,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:51.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 00 93 7e                          |~<.....~         
+[0m
+[00:12:51.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:12:53.258,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 91 7e                          |~<0....~         
+[0m
+[00:12:53.258,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 321525370
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 190854640
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2175439091
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 6128323980
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 65861384001
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 67391351
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 272743115
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2281077
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3315722106
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 665996374
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 24526962163
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1814960715
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 176241350266
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:13:00.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 92 7e 3c                          |~<0...~<         
+[0m
+[00:13:00.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:01.014,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:13:01.014,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:02.208,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 92 7e                          |~<0....~         
+[0m
+[00:13:02.208,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:03.214,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:13:03.214,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:06.704,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 00 00 00 00 93 7e                          |~0.....~         
+[0m
+[00:13:06.704,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:07.512,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:13:07.512,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:08.758,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:13:08.758,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:09.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 2c 00 00 20 77 7e                          |~<,.. w~         
+[0m
+[00:13:09.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:09.102,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0f 00 04 01 af 7e                          |~<.....~         
+[0m
+[00:13:09.102,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:15.508,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 30 00 00 00 01 92 7e                          |<0.....~         
+[0m
+[00:13:15.508,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:15.902,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 2d ff d4 ff da ea 7e                          |~-.....~         
+[0m
+[00:13:15.902,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:20.104,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 08 00 7a 00 79 c8 7e                          |<..z.y.~         
+[0m
+[00:13:20.104,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:26.210,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:13:26.210,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:26.754,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 32 00 00 00 01 90 7e                          |<2.....~         
+[0m
+[00:13:26.754,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:29.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 0b 7e                          |~<$....~         
+[0m
+[00:13:29.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:30.262,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 00 95 7e                          |~0.....~         
+[0m
+[00:13:30.262,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:31.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 08 09 b3 09 6d 7e                          |~<....m~         
+[0m
+[00:13:31.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:34.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c ff ff 00 00 95 7e                          |~<.....~         
+[0m
+[00:13:34.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:40.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 06 7e                          |~<$....~         
+[0m
+[00:13:40.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:47.264,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:13:47.264,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:49.860,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:13:49.860,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:13:55.252,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 01 f1 ae 7e                          |~<#....~         
+[0m
+[00:13:55.252,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 347259355
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 205514815
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2339975239
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 6605920276
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 70954821414
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 72553077
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 293639192
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2462276
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3577249396
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 718432360
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 26409596317
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1975135858
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 189737290836
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:14:03.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:14:03.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:05.952,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 26 00 01 83 19 7e                          |~<&....~         
+[0m
+[00:14:05.952,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:06.004,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 32 00 00 00 01 90 7e                          |~2.....~         
+[0m
+[00:14:06.004,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:07.610,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 01 92 7e                          |~<0....~         
+[0m
+[00:14:07.610,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:12.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 03 ff b2 7e                          |~<.....~         
+[0m
+[00:14:12.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:16.408,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff ff ff 97 7e                          |~0.....~         
+[0m
+[00:14:16.408,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:17.810,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 95 7e                          |~<0....~         
+[0m
+[00:14:17.810,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:18.508,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c ff ff 00 01 94 7e                          |~<.....~         
+[0m
+[00:14:18.508,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:21.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 24 00 00 01 97 7e                          |~<$....~         
+[0m
+[00:14:21.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:28.652,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:14:28.652,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:28.902,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 01 8a 7e                          |~<.....~         
+[0m
+[00:14:28.902,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:33.710,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 00 7e                          |~<0....~         
+[0m
+[00:14:33.710,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:34.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 ff ff 00 94 7e                          |~<0....~         
+[0m
+[00:14:34.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:37.314,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 01 00 01 91 7e                          |~<.....~         
+[0m
+[00:14:37.314,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:38.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 00 7e                          |~<0....~         
+[0m
+[00:14:38.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:48.108,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 00 00 93 7e                          |~<.....~         
+[0m
+[00:14:48.108,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:14:52.008,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c ff ff 00 01 94 7e                          |~<.....~         
+[0m
+[00:14:52.008,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 373053236
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 219973563
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2509248418
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 7085388319
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 76058769598
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 77660473
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 315231700
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2647639
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3838079038
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 768023425
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 28295674735
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2109442630
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 203248297828
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:15:00.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 0e 00 04 01 b0 7e                          |~<.....~         
+[0m
+[00:15:00.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:02.622,000] 
+[1;33m<wrn> ur_magni: Battery is low.
+[0m
+[00:15:02.622,000] 
+[1;31m<err> ur_magni: Battery is critical!
+[0m
+[00:15:11.360,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 00 95 7e                          |~0.....~         
+[0m
+[00:15:11.360,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:13.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 59 07 58 fc 7e                          |~<.Y.X.~         
+[0m
+[00:15:13.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:15.160,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 01 00 01 7e                          |~<0....~         
+[0m
+[00:15:15.160,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:16.760,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 92 7e                          |~<0....~         
+[0m
+[00:15:16.760,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:19.110,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:15:19.110,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:21.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 00 03 5e 3b 7e                          |~<...^;~         
+[0m
+[00:15:21.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:23.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:15:23.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:29.502,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 01 8a 7e                          |~<8....~         
+[0m
+[00:15:29.502,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:29.702,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 07 1c 00 13 8d 7e                          |~<.....~         
+[0m
+[00:15:29.702,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:31.302,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 38 00 00 00 01 7e                          |~<8....~         
+[0m
+[00:15:31.302,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:32.860,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:15:32.860,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:42.510,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 93 7e                          |~<0....~         
+[0m
+[00:15:42.510,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:45.004,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 0f 00 00 04 09 a7 7e                          |<......~         
+[0m
+[00:15:45.004,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:45.054,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       3c 07 00 3e 00 2a 54 7e                          |<..>.*T~         
+[0m
+[00:15:45.054,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:50.010,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 30 ff ff 00 00 95 7e                          |~0.....~         
+[0m
+[00:15:50.010,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:50.752,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 00 01 00 00 92 7e                          |~<.....~         
+[0m
+[00:15:50.752,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:53.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 23 00 00 01 ee 7e                          |~<#....~         
+[0m
+[00:15:53.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:53.052,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 27 00 03 5f 3a 7e                          |~<'.._:~         
+[0m
+[00:15:53.052,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:15:59.002,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 08 00 eb 01 5e 71 7e                          |~....^q~         
+[0m
+[00:15:59.002,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 399111141
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 235860150
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 584 usage 440 / 1024 (42 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2675477266
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 2 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 7570354429
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_tx     : STACK: unused 752 usage 272 / 1024 (26 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95144
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_uart_rx     : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 23 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 81091383726
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 616 usage 408 / 1024 (39 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 82325064
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 688 usage 336 / 1024 (32 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 338058135
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 376 usage 648 / 1024 (63 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2828444
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 600 usage 424 / 1024 (41 %); CPU: 1 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4091585859
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_tx    : STACK: unused 736 usage 288 / 1024 (28 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 817807083
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  ur_magni_uart_rx    : STACK: unused 720 usage 304 / 1024 (29 %); CPU: 8 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 30175678184
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 1568 usage 480 / 2048 (23 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2259087578
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 256 usage 64 / 320 (20 %); CPU: 62 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 216822221091
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1712 usage 336 / 2048 (16 %)
+[0m
+[00:16:03.314,000] 
+[1;33m<wrn> ur_magni_msg: Bad magni checksum!
+                                       7e 3c 30 00 00 00 92 7e                          |~<0....~         
+[0m
+[00:16:03.314,000] 
+[1;33m<wrn> ur_magni: Received broken message, flushing UART in FIFO.
+[0m
+

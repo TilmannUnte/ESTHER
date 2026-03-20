@@ -1,0 +1,47 @@
+/* Copyright (c) 2026 Tilmann Unte
+ * SPDX-License-Identifier:  Apache-2.0
+ */
+
+/* Serial 2 on the mid carrier board! */
+&usart6 {
+	status = "okay";
+	current-speed = <38400>;
+
+	magni_0 {
+		compatible = "ur,magni";
+	};
+};
+
+/* Serial 3 on the mid carrier board! */
+&uart8 {
+	status = "okay";
+	current-speed = <115200>;
+	
+	rplidar_0 {
+		compatible = "slamtech,rplidar";
+		status = "okay";
+	};
+};
+
+&usart1 {
+	status = "okay";
+};
+
+/ {
+	chosen {
+		zephyr,console = &usart1;
+		zephyr,shell-uart = &usart1;
+	};
+};
+
+&usbotg_hs {
+	status = "disabled";
+};
+
+&bt_hci_uart {
+	status = "disabled";
+};
+
+&wifi {
+	status = "disabled";
+};

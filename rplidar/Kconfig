@@ -1,0 +1,29 @@
+# Copyright (c) 2022-2026 Tilmann Unte, Vinzenz Malke
+# SPDX-License-Identifier:  Apache-2.0
+
+config RPLIDAR
+    bool "RPLidar sensor enable"
+    depends on SERIAL
+    
+config RPLIDAR_MOTOR_CTRL
+    bool "RPLidar motor speed control using PWM"
+    depends on PWM
+
+config RPLIDAR_EXPRESS_MODE
+	bool "Software support for high frequency measurement mode"
+	default y
+
+choice RPLIDAR_DEADLINE_MISS_STRATEGY
+	bool "Choice of deadline miss strategy for rplidar unpacker thread"
+	default RPLIDAR_DEADLINE_MISS_STRATEGY_SKIP_NEXT
+
+config RPLIDAR_DEADLINE_MISS_STRATEGY_SKIP_NEXT
+	bool "Whenever a deadline miss occurs, the current job is finished and the next is skipped"
+
+config RPLIDAR_DEADLINE_MISS_STRATEGY_QUEUE
+	bool "Whenever a deadline miss occurs, the current job is finished and the next is queued and executed as soon as possible"
+
+#config RPLIDAR_DEADLINE_MISS_STRATEGY_KILL
+#	bool "Whenever a deadline miss occurs, the thread is aborted and reinitialized"
+
+endchoice

@@ -1,0 +1,26 @@
+# Copyright (c) 2021-2026 Tilmann Unte
+# SPDX-License-Identifier:  Apache-2.0
+
+config UR_MAGNI_DRIVER
+	bool "Enable support for Ubiquity Robotics Magni driver"
+	depends on SERIAL
+
+config UR_MAGNI_EXPANDER
+	bool "Enable support for PCF8574 I2C GPIO Expander module. This is mandatory for non-standard Magni configurations!"
+	depends on I2C
+	depends on UR_MAGNI_DRIVER
+
+choice UR_MAGNI_DEADLINE_MISS_STRATEGY
+	bool "Choice of deadline miss strategy for Magni management threads"
+	default UR_MAGNI_DEADLINE_MISS_STRATEGY_SKIP_NEXT
+
+config UR_MAGNI_DEADLINE_MISS_STRATEGY_SKIP_NEXT
+	bool "Whenever a deadline miss occurs, the current job is finished and the next is skipped"
+
+config UR_MAGNI_DEADLINE_MISS_STRATEGY_QUEUE
+	bool "Whenever a deadline miss occurs, the current job is finished and the next is queued and executed as soon as possible"
+
+#config UR_MAGNI_DEADLINE_MISS_STRATEGY_KILL
+#	bool "Whenever a deadline miss occurs, the thread is aborted and reinitialized"
+
+endchoice

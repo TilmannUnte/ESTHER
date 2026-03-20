@@ -1,0 +1,89 @@
+/*
+ * Copyright (c) 2021-2026 Tilmann Unte
+ * SPDX-License-Identifier:  Apache-2.0
+*/
+
+&timers4 {
+	status = "okay";
+	pwm4: pwm {
+		status = "okay";
+		pinctrl-0 = <&tim4_ch3_pd14>;
+		pinctrl-names = "default";
+	};
+};
+
+/* Strictly speaking, I2C is optional, but highly recommended! */
+&i2c3 {
+	status = "okay";
+	clock-frequency = <I2C_BITRATE_STANDARD>;
+
+	expander0: pcf8574@20 {
+		compatible = "pcf8574";
+		reg = <0x20>;
+	};
+	
+	mcp7940@6f {
+		compatible = "microchip,mcp7940n";
+		reg = <0x6f>;
+	};
+	
+	sh1106_sh1106_128x64: ssd1306@3c {
+		compatible = "solomon,ssd1306fb";
+		reg = <0x3c>;
+		width = <128>;
+		height = <64>;
+		segment-offset = <2>;
+		page-offset = <0>;
+		display-offset = <0>;
+		multiplex-ratio = <63>;
+		segment-remap;
+		com-invdir;
+		prechargep = <0x22>;
+	};
+};
+
+&usart3 {
+	status = "okay";
+	current-speed = <38400>;
+	pinctrl-0 = <&usart3_tx_pc4 &usart3_rx_pc5>;
+	pinctrl-names = "default";
+	
+	magni_0 {
+		compatible = "ur,magni";
+		i2c-bus = <&arduino_i2c>;
+	};
+};
+
+&uart4 {
+	status = "okay";
+	pinctrl-names = "default";
+	
+	rplidar_0 {
+		compatible = "slamtech,rplidar";
+		status = "okay";
+		pwms = <&pwm4 3 65536 PWM_POLARITY_NORMAL>;
+	};
+};
+
+/* allows for interrupt triggering when magnetometer data is available */
+&i2c2 {
+	lis3mdl-magn@1e {
+		irq-gpios = <&gpioc 8 GPIO_ACTIVE_HIGH>;
+	};
+};
+
+/* Voltage Sensing conflicts with UART4 functionality */
+&vref {
+	status = "disabled";
+};
+
+&vbat {
+	status = "disabled";
+};
+
+/* ADC1 conflicts with USART3 functionality */
+&adc1 {
+	status = "disabled";
+};
+
+

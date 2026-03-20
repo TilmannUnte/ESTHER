@@ -1,0 +1,27 @@
+/*
+ * Copyright (c) 2021-2026 Tilmann Unte
+ * SPDX-License-Identifier:  Apache-2.0
+*/
+
+&usart1 {
+	status = "okay";
+	pinctrl-0 = < &usart1_tx_pb6 &usart1_rx_pb7 >;
+	pinctrl-names = "default";
+	current-speed = <115200>;
+	
+	rplidar_0 {
+		compatible = "slamtech,rplidar";
+		status = "okay";
+	};
+};
+
+&usart3 {
+	status = "okay";
+	pinctrl-0 = < &usart3_tx_pb10 &usart3_rx_pb11 >;
+	pinctrl-names = "default";
+	current-speed = <38400>;
+	
+	magni_0 {
+		compatible = "ur,magni";
+	};
+};

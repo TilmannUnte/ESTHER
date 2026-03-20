@@ -1,0 +1,44 @@
+/* Copyright (c) 2026 Tilmann Unte
+ * SPDX-License-Identifier:  Apache-2.0
+ */
+
+/* TODO pins pa9 and pa10 */
+/*
+/ {
+	/* HW resources are split between CM7 and CM4 */
+	chosen {
+		zephyr,console = &usart1;
+		zephyr,shell-uart = &usart1;
+	};
+};
+*/
+&usart1 {
+	status = "disabled";
+};
+
+&uart4 {
+	status = "disabled";
+/*
+	pinctrl-0 = < &uart4_tx_pa0_c &uart4_rx_pa1_c >;
+	pinctrl-names = "default";
+	current-speed = <115200>;
+	
+	rplidar_0 {
+		compatible = "slamtech,rplidar";
+		status = "okay";
+	};
+*/
+};
+
+&usart6 {
+	status = "disabled";
+/*
+	pinctrl-0 = < &usart6_tx_pc6 &usart6_rx_pc7 >;
+	pinctrl-names = "default";
+	current-speed = <38400>;
+	
+	magni_0 {
+		compatible = "ur,magni";
+	};
+*/
+};

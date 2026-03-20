@@ -1,0 +1,1166 @@
+[00:00:02.463,000] 
+[0m<inf> ur_magni: Requesting firmware version.
+[0m
+ASSERTION FAIL [i != tries] @ CMAKE_SOURCE_DIR/ur_magni/ur_magni.c:1492
+	Couldn't read out Magni's FW version!
+[00:00:04.637,000] 
+[1;31m<err> os:  ** FATAL EXCEPTION
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  ** CPU 0 EXCCAUSE 63 (zephyr exception)
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  **  PC 0x40081fab VADDR 0
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  **  PS 0x60f20
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  **    (INTLEVEL:0 EXCM: 0 UM:1 RING:0 WOE:1 OWB:15 CALLINC:2)
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  **  A0 0x800d1c20  SP 0x3ffe9ef0  A2 0x4  A3 0x3ffe9f00
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  **  A4 0x3ffe9ee0  A5 0x4  A6 0x60f20  A7 0x60f20
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  **  A8 0x80086961  A9 0x3ffe9e60 A10 0x3f43415b A11 0x3ffe9f00
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  ** A12 0x3ffe9ee0 A13 0x4 A14 0x3ffb93c8 A15 0x56e
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  ** LBEG 0x4000c2e0 LEND 0x4000c2f6 LCOUNT 0
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  ** SAR 0x7
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os:  **  THREADPTR 0x3ffe9ec0
+[0m
+
+
+Backtrace:0x40081fa8:0x3ffe9ef0 0x400d1c1d:0x3ffe9f00 0x400d65a5:0x3ffe9f20 0x40082984:0x3ffe9f80 0x40082af2:0x3ffe9fa0 0x40082b13:0x3ffe9fc0 0x400d1be5:0x3ffe9ff0 
+
+[00:00:04.637,000] 
+[1;31m<err> os: >>> ZEPHYR FATAL ERROR 4: Kernel panic on CPU 0
+[0m
+[00:00:04.637,000] 
+[1;31m<err> os: Current thread: 0x3ffb93c8 (main)
+[0m
+[00:00:04.749,000] 
+[1;31m<err> os: Halting system
+[0m
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3ffe8000,len:7472
+load:0x40078000,len:2932
+ho 0 tail 12 room 4
+load:0x400a0000,len:29736
+entry 0x400a271c
+I (32) soc_init: MCUboot 2nd stage bootloader
+I (32) soc_init: compile time Oct 30 2025 11:22:29
+W (32) soc_init: Unicore bootloader
+I (33) soc_init: chip revision: v3.0
+I (37) flash_init: SPI Speed      : 40MHz
+I (40) flash_init: SPI Mode       : DIO
+I (44) flash_init: SPI Flash Size : 4MB
+I (80) boot: Image index: 0, Swap type: none
+I (80) boot: Loading image 0 - slot 0 from flash, area id: 2
+I (80) boot: Application start=40087b50h
+I (81) boot: DRAM	: lma=0002b0fch vma=3ffb0000h size=0525ch ( 21084) load
+I (91) boot: IRAM	: lma=00020080h vma=40080000h size=0b07ch ( 45180) load
+I (106) boot: IROM	: lma=00080000h vma=400d0000h size=0B080h ( 45184) map
+I (106) boot: DROM	: lma=00040000h vma=3f400000h size=357A0h (219040) map
+I (121) boot: libc heap size 153 kB.
+I (121) spi_flash: detected chip: generic
+I (121) spi_flash: flash io: dio
+[00:00:00.155,000] 
+[0m<inf> ur_magni: No I2C connection provided, setting option switch to default
+[0m
+[00:00:00.155,000] 
+[0m<inf> ur_magni: Initialized UART connection.
+[0m
+[00:00:00.797,000] 
+[0m<inf> ur_magni: Requesting firmware version.
+[0m
+[00:00:00.798,000] 
+[1;33m<wrn> ur_magni: Battery is low.
+[0m
+[00:00:00.798,000] 
+[1;31m<err> ur_magni: Battery is critical!
+[0m
+[00:00:02.506,000] 
+[0m<inf> ur_magni: Got Magni FW version: 43
+[0m
+[00:00:02.506,000] 
+[0m<inf> ur_magni: Requesting firmware date.
+[0m
+[00:00:02.518,000] 
+[0m<inf> ur_magni: Got Magni FW date: 539035689
+[0m
+[00:00:02.518,000] 
+[0m<inf> ur_magni: Setting wheel type to: std
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Setting drive type to: std
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Setting wheel direction to: std
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Setting board version to: 53
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Setting option switch to: 2
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Clearing system events.
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Initializing E-Stop state to: 1
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Initializing E-Stop Threshold to: 1500
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Setting speed limitations to: 104 and -104
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Initializing PID values.
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: P: 5000
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: I: 0
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: D: -110
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: V: 0
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: C: 1000
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: bufsize: 70
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: maxpwm: 325
+[0m
+[00:00:02.519,000] 
+[0m<inf> ur_magni: Achieved full initialization.
+[0m
+[00:00:05.250,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:05.750,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:00:06.250,000] 
+[1;33m<wrn> rplidar: Failed starting default scan with error code: 0x80008006
+[0m
+[00:02:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 52223854
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 31700130
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 448899118
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 789879215
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4779293
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 25485156
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 192 usage 832 / 1024 (81 %); CPU: 0 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 164708
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 624 usage 400 / 1024 (39 %); CPU: 2 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 647050651
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 128 usage 896 / 1024 (87 %); CPU: 0 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 31250491
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 25609937747
+[0m
+[00:02:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 79792897
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 47637363
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 689395571
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:03:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1210490047
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 7227902
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 38069912
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 343279
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 990754532
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 128 usage 896 / 1024 (87 %); CPU: 0 %
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 74626617
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 38335604465
+[0m
+[00:03:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 107364756
+[0m
+[00:04:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 63885704
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 929963923
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1631136419
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 9729922
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 50449216
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 517220
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1350490232
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 128 usage 896 / 1024 (87 %); CPU: 0 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 117944982
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 51058396763
+[0m
+[00:04:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 134864471
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 79744679
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:05:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1170547176
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2051640112
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 12172834
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 62874253
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 702307
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1710088487
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 112 usage 912 / 1024 (89 %); CPU: 0 %
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 161283717
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 63781843103
+[0m
+[00:05:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 162047699
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:06:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 95793903
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1411012588
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2471637871
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 14624950
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 75403234
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 882361
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2062162946
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 112 usage 912 / 1024 (89 %); CPU: 0 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 204696265
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 76505894459
+[0m
+[00:06:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 188646569
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 111827784
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1652126492
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:07:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2891581321
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 17075467
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 88373227
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1061094
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2394132573
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 112 usage 912 / 1024 (89 %); CPU: 0 %
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 248098950
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 89230783924
+[0m
+[00:07:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 215685171
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:08:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 127702290
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1892948343
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3298687469
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 19514419
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 100996894
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1240681
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2756818289
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 112 usage 912 / 1024 (89 %); CPU: 0 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 291552926
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 101957507707
+[0m
+[00:08:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 243056789
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 143913748
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:09:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2132628931
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3717967394
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 21962887
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 113463544
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1421049
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3117358771
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 112 usage 912 / 1024 (89 %); CPU: 0 %
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 335039434
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 114682564512
+[0m
+[00:09:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:10:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 270216334
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 159941489
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2372204603
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4137315355
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 24395714
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 126003173
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1599420
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3476940527
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 80 usage 944 / 1024 (92 %); CPU: 0 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 378550826
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 127408897288
+[0m
+[00:10:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:11:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 297740087
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 176070634
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2611784884
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4557074503
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 26845509
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 138535740
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1777159
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3836806354
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 80 usage 944 / 1024 (92 %); CPU: 0 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 422047792
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 140133736121
+[0m
+[00:11:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 324951825
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:12:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 191835541
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2852089728
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4963402283
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 29313824
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 151611033
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 1960064
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4181999122
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 80 usage 944 / 1024 (92 %); CPU: 0 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 465576759
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 152859481104
+[0m
+[00:12:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:13:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 352346345
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 207810075
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3092204596
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5367278665
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 31756712
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 164570582
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2141934
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4527038848
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 80 usage 944 / 1024 (92 %); CPU: 0 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 509142355
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 165587432215
+[0m
+[00:13:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 380192331
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 224039455
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:14:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3332164710
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5770265272
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 34201945
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 177082355
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2317483
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 4869744754
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 80 usage 944 / 1024 (92 %); CPU: 0 %
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 552698165
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 178317478154
+[0m
+[00:14:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 408025856
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 239893581
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3572027418
+[0m
+[00:15:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 6172991285
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 36683198
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 189572255
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2495557
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5212226153
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 80 usage 944 / 1024 (92 %); CPU: 0 %
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 596221589
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 191048485815
+[0m
+[00:15:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+[00:15:06.450,000] 
+[1;33m<wrn> ur_magni: Battery is low.
+[0m
+[00:15:06.450,000] 
+[1;31m<err> ur_magni: Battery is critical!
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer: Thread analyze:
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  movement            : STACK: unused 528 usage 496 / 1024 (48 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 435863622
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  magni_tcb           : STACK: unused 464 usage 560 / 1024 (54 %); CPU: 0 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 256004498
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  lidar_tcb           : STACK: unused 496 usage 528 / 1024 (51 %); CPU: 1 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 3811804712
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:  rplidar_unpacker    : STACK: unused 320 usage 704 / 1024 (68 %); CPU: 2 %
+[0m
+[00:16:00.000,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 6575686338
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_joint      : STACK: unused 544 usage 480 / 1024 (46 %); CPU: 0 %
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 39162325
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_velocity   : STACK: unused 592 usage 432 / 1024 (42 %); CPU: 0 %
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 201918946
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_system     : STACK: unused 160 usage 864 / 1024 (84 %); CPU: 0 %
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 2673534
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:  ur_magni_parser     : STACK: unused 608 usage 416 / 1024 (40 %); CPU: 2 %
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 5561197357
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:  logging             : STACK: unused 80 usage 944 / 1024 (92 %); CPU: 0 %
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 639735468
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:  idle                : STACK: unused 816 usage 208 / 1024 (20 %); CPU: 92 %
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:                      : Total CPU cycles used: 203780126763
+[0m
+[00:16:00.001,000] 
+[0m<inf> thread_analyzer:  ISR0                : STACK: unused 1584 usage 464 / 2048 (22 %)
+[0m
+

@@ -1,0 +1,17 @@
+# Copyright (c) 2022 Vinzenz Malke
+# SPDX-License-Identifier:  Apache-2.0
+description: |
+  RPLidar sensor
+compatible: "slamtech,rplidar"
+
+include: uart-device.yaml
+
+properties:
+  pwms:
+    required: false
+    type: phandle-array
+    description: |
+      PWM for motor ctrl
+
+
+    

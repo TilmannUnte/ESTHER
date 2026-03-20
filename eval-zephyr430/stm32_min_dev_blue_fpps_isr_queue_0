@@ -1,0 +1,365 @@
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008001
+W: Division-by-Zero avoided: no time elapsed between two consecutive joint thread jobs!
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+W: Failed starting default scan with error code: 0x80008006
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 19319526
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 12037755
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 95100668
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 6 %
+I:                      : Total CPU cycles used: 262880508
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 2279815
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 7974014
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 4585226
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 132836280
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 87 %
+I:                      : Total CPU cycles used: 3702426499
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 41382706
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 24981559
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 195266647
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 6 %
+I:                      : Total CPU cycles used: 568261867
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 4126093
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 16311826
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 11927739
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 267875761
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 86 %
+I:                      : Total CPU cycles used: 7335518386
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 63623443
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 38207790
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 302373177
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 6 %
+I:                      : Total CPU cycles used: 878282589
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 5970052
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 24688164
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 19353771
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 403095636
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 86 %
+I:                      : Total CPU cycles used: 10955545846
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 85862310
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 50833102
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 384024794
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 6 %
+I:                      : Total CPU cycles used: 1173432897
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 7824736
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 32992878
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 26799797
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 538230273
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 86 %
+I:                      : Total CPU cycles used: 14618782329
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 108382934
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 63648268
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 503248847
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 1489978690
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 9656884
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 41307597
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 33601659
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 673431579
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 86 %
+I:                      : Total CPU cycles used: 18219771961
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 130992480
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 76186352
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 607697992
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 1798137230
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 11503891
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 49644258
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 40076517
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 808782517
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 86 %
+I:                      : Total CPU cycles used: 21845768010
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 153782846
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 89255812
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 719136072
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 2110324243
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 13344619
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 57992845
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 47111799
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 943912474
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 86 %
+I:                      : Total CPU cycles used: 25459473089
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 176433775
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 102034781
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 808534497
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 2409604976
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 15188546
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 66349085
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 54586085
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 1079173556
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 86 %
+I:                      : Total CPU cycles used: 29109434952
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 199402029
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 115322765
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 944141949
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 2735741506
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 17040575
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 74691112
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 62088676
+I:  ur_magni_parser     : STACK: unused 232 usage 280 / 512 (54 %); CPU: 3 %
+I:                      : Total CPU cycles used: 1214469148
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 32681636890
+I:  ISR0                : STACK: unused 280 usage 232 / 512 (45 %)
+W: Bad magni checksum!
+W: 7e 3c 25 00 00 03 5d 7e |~<%...]~
+W: Received broken message, flushing UART in FIFO.
+W: Purging transfer queue
+W: Bad magni checksum!
+W: 3c 26 00 00 01 83 19 7e |<&.....~
+W: Received broken message, W: Purging transfer queue
+flushing UART in FIFO.
+W: Bad magni checksum!
+W: 3c 27 00 00 03 60 39 7e |<'...`9~
+W: RecW: Purging transfer queue
+eived broken message, flushing UART in FIFO.
+W: Bad magni checksum!
+W: 3c 0e 00 00 04 04 aW: Purging transfer queue
+d 7e |<......~
+W: Received broken message, flushing UART in FIFO.
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 222366547
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 128257811
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 1028296453
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 3031689308
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 18888518
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 83028554
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 69538302
+I:  ur_magni_parser     : STACK: unused 104 usage 408 / 512 (79 %); CPU: 3 %
+I:                      : Total CPU cycles used: 1353029847
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 36336954948
+I:  ISR0                : STACK: unused 264 usage 248 / 512 (48 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 245355309
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 141092683
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 1139027901
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 3343021981
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 20722338
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 91294332
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 77030019
+I:  ur_magni_parser     : STACK: unused 104 usage 408 / 512 (79 %); CPU: 3 %
+I:                      : Total CPU cycles used: 1488242183
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 39951533897
+I:  ISR0                : STACK: unused 264 usage 248 / 512 (48 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 268376057
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 153548340
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 1230631144
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 3643779928
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 22572360
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 99652742
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 84351754
+I:  ur_magni_parser     : STACK: unused 104 usage 408 / 512 (79 %); CPU: 3 %
+I:                      : Total CPU cycles used: 1623559184
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 43597707740
+I:  ISR0                : STACK: unused 264 usage 248 / 512 (48 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 208 usage 304 / 512 (59 %); CPU: 0 %
+I:                      : Total CPU cycles used: 291835990
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 166022914
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 1339323509
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 3953987468
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 24413920
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 108018854
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 91838603
+I:  ur_magni_parser     : STACK: unused 104 usage 408 / 512 (79 %); CPU: 3 %
+I:                      : Total CPU cycles used: 1758914141
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 47215410665
+I:  ISR0                : STACK: unused 264 usage 248 / 512 (48 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 184 usage 328 / 512 (64 %); CPU: 0 %
+I:                      : Total CPU cycles used: 315250912
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 178887106
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 1451550654
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 4266002347
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 26253293
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 116408105
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 99288339
+I:  ur_magni_parser     : STACK: unused 104 usage 408 / 512 (79 %); CPU: 3 %
+I:                      : Total CPU cycles used: 1894214863
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 50827064793
+I:  ISR0                : STACK: unused 264 usage 248 / 512 (48 %)
+I: Thread analyze:
+I:  movement            : STACK: unused 184 usage 328 / 512 (64 %); CPU: 0 %
+I:                      : Total CPU cycles used: 338619616
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 191465556
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 1577009334
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 4585901667
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 28113304
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 124734928
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 106703173
+I:  ur_magni_parser     : STACK: unused 104 usage 408 / 512 (79 %); CPU: 3 %
+I:                      : Total CPU cycles used: 2029465796
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 54417202240
+I:  ISR0                : STACK: unused 264 usage 248 / 512 (48 %)
+W: Battery is low.
+E: Battery is critical!
+I: Thread analyze:
+I:  movement            : STACK: unused 184 usage 328 / 512 (64 %); CPU: 0 %
+I:                      : Total CPU cycles used: 362041615
+I:  magni_tcb           : STACK: unused 640 usage 384 / 1024 (37 %); CPU: 0 %
+I:                      : Total CPU cycles used: 204254604
+I:  lidar_tcb           : STACK: unused 632 usage 392 / 1024 (38 %); CPU: 2 %
+I:                      : Total CPU cycles used: 1695977312
+I:  rplidar_unpacker    : STACK: unused 744 usage 280 / 1024 (27 %); CPU: 7 %
+I:                      : Total CPU cycles used: 4902154173
+I:  ur_magni_joint      : STACK: unused 120 usage 392 / 512 (76 %); CPU: 0 %
+I:                      : Total CPU cycles used: 29958648
+I:  ur_magni_velocity   : STACK: unused 272 usage 240 / 512 (46 %); CPU: 0 %
+I:                      : Total CPU cycles used: 133071824
+I:  ur_magni_system     : STACK: unused 456 usage 568 / 1024 (55 %); CPU: 0 %
+I:                      : Total CPU cycles used: 113424230
+I:  ur_magni_parser     : STACK: unused 104 usage 408 / 512 (79 %); CPU: 3 %
+I:                      : Total CPU cycles used: 2165024777
+I:  idle                : STACK: unused 80 usage 48 / 128 (37 %); CPU: 85 %
+I:                      : Total CPU cycles used: 58017667548
+I:  ISR0                : STACK: unused 264 usage 248 / 512 (48 %)

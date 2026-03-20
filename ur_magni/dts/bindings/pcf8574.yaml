@@ -1,0 +1,7 @@
+# Copyright (c) 2021-2026 Tilmann Unte
+# SPDX-License-Identifier:  Apache-2.0
+description: generic 8 channel GPIO expander on I2C bus
+
+compatible: "pcf8574"
+
+include: i2c-device.yaml

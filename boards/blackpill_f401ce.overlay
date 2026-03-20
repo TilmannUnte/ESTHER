@@ -1,0 +1,43 @@
+/* Copyright (c) 2026 Tilmann Unte
+ * SPDX-License-Identifier:  Apache-2.0
+ */
+
+/*
+&timers4 {
+	status = "okay";
+
+	pwm4: pwm {
+		status = "okay";
+		pinctrl-0 = <&tim4_ch1_pb6 &tim4_ch2_pb7>;
+		pinctrl-names = "default";
+	};
+};
+*/
+
+&usart2 {
+	pinctrl-0 = <&usart2_tx_pa2 &usart2_rx_pa3>;
+	pinctrl-names = "default";
+	status = "okay";
+	current-speed = <38400>;
+
+	magni_0 {
+		compatible = "ur,magni";
+	};
+};
+
+&usart6 {
+	pinctrl-0 = <&usart6_tx_pa11 &usart6_rx_pa12>;
+	pinctrl-names = "default";
+	status = "okay";
+	current-speed = <115200>;
+
+	rplidar_0 {
+		compatible = "slamtech,rplidar";
+		status = "okay";
+	};
+};
+
+/* in conflict with usart6 pins */
+&usbotg_fs {
+	status = "disabled";
+};

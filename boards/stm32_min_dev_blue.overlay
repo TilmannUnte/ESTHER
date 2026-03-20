@@ -1,0 +1,51 @@
+/* Copyright (c) 2026 Tilmann Unte
+ * SPDX-License-Identifier:  Apache-2.0
+ */
+
+/*
+&usart1 {
+	pinctrl-0 = <&usart1_tx_pa9 &usart1_rx_pa10>;
+	current-speed = <115200>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&usart2 {
+	pinctrl-0 = <&usart2_tx_pa2 &usart2_rx_pa3>;
+	current-speed = <115200>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&usart3 {
+	pinctrl-0 = <&usart3_tx_pb10 &usart3_rx_pb11>;
+	current-speed = <115200>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&timers1 {
+	status = "okay";
+
+	pwm1: pwm {
+		status = "okay";
+		pinctrl-0 = <&tim1_ch1_pwm_out_pa8>;
+		pinctrl-names = "default";
+	};
+};
+*/
+&usart3 {
+	current-speed = <38400>;
+	
+	magni_0 {
+		compatible = "ur,magni";
+	};
+};
+
+&usart2 {
+	rplidar_0 {
+		compatible = "slamtech,rplidar";
+		status = "okay";
+		/* See above for potential PWM output */
+	};
+};

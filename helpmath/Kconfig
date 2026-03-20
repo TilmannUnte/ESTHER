@@ -1,0 +1,6 @@
+# Copyright (c) 2025-2026 Tilmann Unte
+# SPDX-License-Identifier:  Apache-2.0
+
+config HELPMATH
+	bool "Enable helper math library"
+	depends on LIBFIXMATH

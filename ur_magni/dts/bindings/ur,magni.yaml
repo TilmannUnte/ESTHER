@@ -1,0 +1,12 @@
+# Copyright (c) 2021-2026 Tilmann Unte
+# SPDX-License-Identifier:  Apache-2.0
+description: Ubiquity Robotics Magni Robot
+
+compatible: "ur,magni"
+
+include: uart-device.yaml
+
+properties:
+   i2c-bus:
+      type: phandle
+      description: I2C bus that connects to magni peripheral devices

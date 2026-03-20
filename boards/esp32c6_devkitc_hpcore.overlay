@@ -1,0 +1,92 @@
+/* Copyright (c) 2026 Tilmann Unte
+ * SPDX-License-Identifier:  Apache-2.0
+ */
+/* LPUART uses pins 5 and 4 */
+
+&timer0 {
+	status = "okay";
+
+	counter {
+		status = "okay";
+	};
+};
+
+&timer1 {
+	status = "okay";
+
+	counter {
+		status = "okay";
+	};
+};
+
+/ {
+	uartbb0: uartbb0 {
+		compatible = "zephyr,uart-bitbang";
+		tx-gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
+		rx-gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
+		tx-fifo-size = <8192>;
+		rx-fifo-size = <8192>;
+		current-speed = <9600>;
+		data-bits = <8>;
+		stop-bits = "1";
+		parity = "none";
+		tx-timer = <&timer0>;
+		rx-timer = <&timer1>;
+		status = "okay";
+	};
+
+	chosen {
+		zephyr,console = &uartbb0;
+		zephyr,shell-uart = &uartbb0;
+	};
+
+};
+		
+&pinctrl {
+	uart0_default: uart0_default {
+		group1 {
+			pinmux = <UART0_TX_GPIO20>;
+			output-high;
+		};
+
+		group2 {
+			pinmux = <UART0_RX_GPIO21>;
+			bias-pull-up;
+		};
+	};
+
+	uart1_default: uart1_default {
+		group1 {
+			pinmux = <UART1_TX_GPIO18>;
+			output-high;
+		};
+
+		group2 {
+			pinmux = <UART1_RX_GPIO19>;
+			bias-pull-up;
+		};
+	};
+};
+
+&uart0 {
+	status = "okay";
+	current-speed = <38400>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-names = "default";
+
+	magni_0 {
+		compatible = "ur,magni";
+	};
+};
+
+&uart1 {
+	status = "okay";
+	current-speed = <115200>;
+	pinctrl-0 = <&uart1_default>;
+	pinctrl-names = "default";
+
+	rplidar_0 {
+		compatible = "slamtech,rplidar";
+		status = "okay";
+	};
+};
