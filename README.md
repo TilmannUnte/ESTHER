@@ -77,9 +77,9 @@ When testing software changes affecting the movement, it is recommended to prop 
 When wiring up peripherals, first disconnect at least one battery terminal. Make sure that power wiring is done correctly. Double check with a connectivity tester (multimeter).
 Once you're certain, you can reattach the batteries. The robot has fuses for the motors, but offers no protection against wiring mistakes!
 
-# REDACTED CONFERENCE 2026
+# Experiments
 
-The ESTHER case study has been used for experiments presented at REDACTED CONFERENCE 2026. The evaluation can be replicated as follows:
+The ESTHER case study has been used for experiments in REDACTED. The evaluation can be replicated as follows:
 
 ## Gathering new Reports
 
